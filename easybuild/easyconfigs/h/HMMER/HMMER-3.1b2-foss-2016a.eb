@@ -32,6 +32,7 @@ sources = ['hmmer-%(version)s.tar.gz']
 
 runtest = 'check'
 
+configopts = "--enable-mpi"
 installopts = ' && cd easel && make install'
 
 sanity_check_paths = {
